@@ -1,0 +1,356 @@
+*{
+    font-family:cursive;
+}
+.navbar-brand{
+    font-size:30px;
+    font-weight:bold;
+    margin-left:50px;
+    margin-right:630px;
+
+}
+ul {
+    float:right;
+}
+
+.navbar-nav a{
+    margin-right:15px;
+    font-weight: bold;
+    font-size:20px;
+    float:right;
+}
+
+.nav-item:hover{
+    background-color: black;
+    
+}
+
+header{
+    background-color:tomato;
+    color:white;
+}
+
+header .col-md-6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+header h3{
+    font-size:50px;    
+} 
+
+header .col-md-6 a{
+    border-radius: 40px;
+    font-weight: bold;
+}
+header .col-md-6 a:hover{
+    background-color: white;
+    color:red;
+    
+}
+
+#cover{
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/kids-jumping.jpg) no-repeat;
+  position: relative;
+  background-size:cover;
+  background-position:center;
+  height:50%;
+}
+ .content{
+    padding-top:80px;
+    color:white;   
+}
+.content h1
+{
+    font-weight: bold;
+}
+
+
+.number .rect
+{
+    position: relative;
+    z-index: 1;
+   
+    background-color: white;
+    padding:30px;
+    width:14rem;
+    height:12rem;
+    margin:30px;
+    border-radius:5px;
+    box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.349);
+   
+}
+.number{
+    margin-top:-110px;
+    
+}
+.rect h1{
+    color:tomato;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.rect p{
+   
+    font-weight: bolder;
+    font-size:13px;
+}
+
+#section-3{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color:lightblue;
+    text-align: center;
+}
+#section-3 .col-md-4{
+    text-align: center;
+}
+
+#section-3 p{
+    padding-bottom: 50px;
+}
+
+ #section-3 .cards p{
+    padding-bottom: 10px;
+}
+
+#section-3 h5{
+    font-weight: bolder;
+}
+.cards{
+    margin-left:50px;
+}
+#section-3 .card{
+    padding-top: 20px;
+
+    padding-bottom:20px;
+}
+#section-3 a{
+    border-radius: 20px;
+    font-weight: bold;    
+}
+
+#section-3 .card a:hover{
+    background-color:red;
+    color:white;
+    
+}
+
+#section-4{
+    background-color: tomato;
+   color:white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#section-4 p{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#section-4 .icon{
+       
+    margin-left: 130px;
+    
+}
+
+.icon{
+    display: inline-block;
+    color:black;
+    background-color:white;
+    border-radius: 50px;  
+   padding:3px;
+   width:185px;
+}
+
+.section-5{
+   
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section-5 h1{
+    padding-bottom: 30px;
+}
+
+.section-5 .card{
+    padding-top: 40px;
+    padding-bottom:20px;
+    border:3px solid black;   
+    height: 97%;  
+}
+
+
+.section-5 .card-img-top img{
+    width:60%; 
+        
+    border-radius:50%;
+    padding-bottom: 10px;
+}
+
+
+
+#footer{
+    background-color:rgba(0, 0, 0, 0.671);
+    color:white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    cursor: pointer;
+
+}
+
+#footer h2
+{
+   color:tomato;
+   margin-bottom: 20px;
+   
+}
+#footer-2{
+    background-color: black;
+    color:white;
+    padding-top:10px;
+    padding-bottom: 3px;
+    
+}
+
+#icons i{
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+
+@media (max-width:1176px){
+       
+    .navbar-brand{
+       
+       margin-right:280px;
+      } 
+      .navbar-nav a{
+        margin-right:0px;
+        font-size:18px;
+    } 
+   
+    .card{
+        margin-bottom:30px;
+    } 
+    .cards{
+         
+        margin-left:10px;
+    }
+ } 
+
+
+ 
+ 
+ @media (max-width:992px){
+       
+    .cards{
+         
+        margin-left:180px;
+        
+    }
+ } 
+
+ @media (max-width:768px){
+    
+    header h3{
+        font-size:33px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .navbar-brand{
+        
+       margin:12px;
+       margin-left: 40px;
+      }
+      #section-3,#section-4,.section-5,#footer{
+        padding-top:40px;
+        padding-bottom:40px;
+      }
+      .cards
+        {
+            margin-left:200px;
+        }
+       
+       .card{
+          margin-bottom:30px;
+      }
+    
+
+    #section-4 .icon{
+       
+        margin-bottom: 30px;
+        margin-left: 170px;
+        
+    }
+
+    #footer p{
+        margin-bottom: 20px;
+    }
+
+    #icons i{
+        margin-top: 15px;
+        
+    }
+}
+
+@media (max-width:711px){
+
+    .cards{
+        margin-left:65px;
+    }
+}
+
+    @media (max-width:500px){
+
+        .cards{
+         
+            margin-left:45px;
+        }
+
+        #section-4 .icon{
+       
+            margin-left: 100px;
+            
+        }
+    }
+
+    @media (max-width:385px){
+
+        .cards{
+         
+            margin-left:25px;
+        }
+        #section-4 .icon{
+       
+           
+           margin-left: 70px;
+                
+            }
+            
+        }
+
+
+    
+
+    @media (max-width:343px){
+
+        .cards{
+         
+            margin-left:0px;
+        }
+
+
+    }
+
+
+   
+
+    
+
+
+
+
+
+
+
+
