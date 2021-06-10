@@ -45,6 +45,11 @@ header .col-md-6 a:hover{
     
 }
 
+main .carousel-item  img{
+    width:100%;
+    height:50%;
+}
+
 #cover{
   background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/kids-jumping.jpg) no-repeat;
   position: relative;
@@ -258,6 +263,11 @@ header .col-md-6 a:hover{
        margin:12px;
        margin-left: 40px;
       }
+     
+       main  .carousel-item  img{
+        width:100%;
+        height:30%;
+    }
       #section-3,#section-4,.section-5,#footer{
         padding-top:40px;
         padding-bottom:40px;
